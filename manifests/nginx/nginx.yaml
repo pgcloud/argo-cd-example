@@ -28,6 +28,9 @@ spec:
   ports:
   - port: 80
     protocol: TCP
+  ports:
+  - port: 443
+    protocol: TCP
   type: LoadBalancer
   selector:
     run: my-nginx
