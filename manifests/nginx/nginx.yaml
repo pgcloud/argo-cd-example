@@ -28,10 +28,10 @@ spec:
   ports:
   - name: http
     port: 80
-    protocol: http
+    protocol: TCP
   - name: https
     port: 443
-    protocol: https
+    protocol: TCP
   type: LoadBalancer
   selector:
     run: my-nginx
